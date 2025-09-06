@@ -25,15 +25,23 @@ sudo apt update
 sudo apt install build-essential pkg-config libgtk-3-dev
 
 `````
-
+---
+Clone the repository
 ```bash
 git clone https://github.com/dehshat12/ShadowMite-Setup-Wizard.git
 cd ShadowMite
 make 
 `````
+---
 
 Then Execute
 
 ```bash
 ./ShadowMite 
 `````
+---
+
+##⚠️WARNING⚠️
+
+The Program is still in development, so expect some missing key features, bugs and glitches. Use it at your own risk
+
