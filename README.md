@@ -1,2 +1,39 @@
-# ShadowMite-Setup-Wizard
-A small setup wizard for ShadowMiteOS
+# ShadowMite Setup Wizard
+
+**ShadowMite** is a GTK3-based setup wizard written in C++ designed to guide users through configuring a fresh OS environment. Its sleek, stack-based interface allows easy configuration of network, locale, applications, and system settings. ShadowMite is ideal for customized Raspberry Pi or kiosk setups.
+
+---
+
+## Features
+
+- **Welcome Screen** – the entry point to the setup process.  
+- **Network Setup** – Wi-Fi scanning, static IP configuration, and asynchronous threads for reliability.  
+- **Locale Selection** – select language and region.  
+- **Application Manager** – install/remove “prescribed apps” from JSON definitions.  
+- **Summary & Finish** – review and confirm configuration choices.
+
+---
+
+
+
+Building ShadowMite is as easy. Get your Raspberry Pi Lite OS flashed into an SD card and follow the rest
+
+Install the required libraries for compiling:
+
+```bash
+sudo apt update
+sudo apt install build-essential pkg-config libgtk-3-dev
+
+`````
+
+```bash
+git clone https://github.com/dehshat12/ShadowMite-Setup-Wizard.git
+cd ShadowMite
+make 
+`````
+
+Then Execute
+
+```bash
+./ShadowMite 
+`````
