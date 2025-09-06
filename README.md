@@ -2,6 +2,8 @@
 
 **ShadowMite** is a GTK3-based setup wizard written in C++ designed to guide users through configuring a fresh OS environment. Its sleek, stack-based interface allows easy configuration of network, locale, applications, and system settings. ShadowMite is ideal for customized Raspberry Pi or kiosk setups.
 
+Notes: The templates folder contains the app jsons
+
 ---
 
 ## Features
@@ -11,10 +13,9 @@
 - **Locale Selection** – select language and region.  
 - **Application Manager** – install/remove “prescribed apps” from JSON definitions.  
 - **Summary & Finish** – review and confirm configuration choices.
-
 ---
-
-
+Notes: The templates folder contains the app jsons
+---
 
 Building ShadowMite is as easy. Get your Raspberry Pi Lite OS flashed into an SD card and follow the rest
 
@@ -41,7 +42,7 @@ Then Execute
 `````
 ---
 
-#⚠️WARNING⚠️
+# ⚠️WARNING⚠️
 
 The Program is still in development, so expect some missing key features, bugs and glitches. Use it at your own risk
 
