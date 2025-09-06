@@ -14,8 +14,8 @@ Notes: The templates folder contains the app jsons
 - **Application Manager** – install/remove “prescribed apps” from JSON definitions.  
 - **Summary & Finish** – review and confirm configuration choices.
 ---
-# Notes: 
-The templates folder contains the app jsons, so if you dont see any apps in the setup wizard, don't panic. You can make your own, or copy the entire files to the ~/sm_conf/apps/. 
+## Notes: 
+## The templates folder contains the app jsons, so if you dont see any apps in the setup wizard, don't panic. You can make your own, or copy the entire files to the ~/sm_conf/apps/. 
 ---
 
 Building ShadowMite is as easy. Get your Raspberry Pi Lite OS flashed into an SD card and follow the rest
