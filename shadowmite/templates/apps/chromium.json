@@ -1,6 +1,0 @@
-{
-    "name": "Chromium Browser",
-    "description": "A fast, open-source browser based on Chromium.",
-    "logo": "~/sm_conf/apps/logos/chromium.png",
-    "package": "chromium-browser"
-}
